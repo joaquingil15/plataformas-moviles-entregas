@@ -1,0 +1,50 @@
+body{
+    background-color:  #222;
+    color: #ee6;
+   
+}
+h1{
+    font-size: 2.5vw;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+
+    p{
+        font-family:  sans-serif;
+    }
+
+    h2,h3{
+        color:  #eee ;
+    }
+    strong {
+        border-bottom: 2px solid white;
+    }
+
+    .the-force {
+        font-weight: bold; 
+        background-color: #444; 
+     
+        padding: 2px 4px; 
+        border-radius: 3px; 
+    }
+
+    .light-side{
+        color: #66f ;
+    }
+    .dark-side{
+        color: #f33;
+    }
+
+    #og-trilogy{
+        list-style-type: circle;
+    }
+
+    ul.movies-list:nth-of-type(2) {
+        padding-left: 60px; 
+    }
+   
+    ul.movies-list:nth-of-type(3) li:last-child {
+        margin-top: 20px; 
+    }
+    

@@ -43,6 +43,7 @@ h2{
 .container{
     width: fit-content;
     margin: auto;
+text-align: center;
 }
 
 button{

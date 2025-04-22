@@ -1,0 +1,31 @@
+.titulo{
+text-align: center;
+}
+
+.parrafo{
+    font-family: serif;
+}
+#contenedor #primer-parrafo{
+    background-color:#cee;
+}
+#primer-parrafo em{
+    color: #933;
+}
+
+#contenedor a, a{
+    outline: 1px solid #333;
+}
+
+body p.fuente.parrafo{
+    color: #000;
+    opacity: 100%  !important ;
+}  
+
+p:not(id){
+    text-shadow: none;
+}
+
+.complicado{
+    color: #C62  !important;
+ font-weight: 800%;
+}

@@ -8,35 +8,21 @@
 body {
 	background: #5f6b96; 
 	color: #fff; 
-
-
     width:100%;
     height: fit-content;
     position: relative;
     background: url('https://wallpaperaccess.com/full/250651.jpg') no-repeat center;
     background-attachment: fixed;
-    background-size: cover;
-   
-    
-   
-    
-   
-    
-    
+    background-size: cover;  
 }
+
 img{
    border-radius: 100%;
-   margin-left: 235mm;
-   width: 7%;
    height: 10%;
-   
+   width: 2rem;
 }
 
-
-
-
 h1{
-  
     font-size: 1.5vw;
     margin-top: 20px;
     text-align: center;
@@ -47,18 +33,19 @@ h1{
 }
 
 h2{
-    
+    text-align: center;
     font-size: 1.3em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffffe8;
     text-shadow: 1.5px 1px 1px black;
-    margin-left: 240mm;
 }
 
+.container{
+    width: fit-content;
+    margin: auto;
+}
 
 button{
-
-   
     border: 0;
     background-image: linear-gradient(
         150deg,
@@ -73,8 +60,6 @@ button{
     padding: 4px;
     cursor: pointer;
     transition: .3s;
-    margin-left: 225mm;
-    
 }
 
 button span{
@@ -85,12 +70,13 @@ button span{
 }
 
 button:hover span{
-background: none;
+    background: none;
 }
 
 button:active{
     transform: scale(0.9);
 }
+
 a{
     text-decoration: none;
 }
